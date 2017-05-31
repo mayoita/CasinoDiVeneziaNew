@@ -6,3 +6,4 @@ sites/*/settings*.php
 sites/*/private
 site/default/files/tmp/*
 
+sites/default/files/tmp
