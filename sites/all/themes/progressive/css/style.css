@@ -10757,3 +10757,29 @@ a.big-icon:hover {
 .filter-guidelines {
   display: none;
 }
+.group-mobile, .group-blog, .field-type-taxonomy-term-reference {
+  padding: 20px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+
+.group-mobile {
+  background-color: #d8ebfb;
+}
+.group-blog {
+  background-color: #d8fbdc;
+}
+.field-name-field-tags {
+  background-color: #fafbd8;
+}
+.field-name-field-categoria {
+  background-color: #fbd8d8;
+}
+.field-name-field-eventdate {
+  background-color: #fbebd8;
+}
+input#edit-field-blog-und {
+
+}
