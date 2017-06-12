@@ -6,6 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname(dirname(dirname($vendorDir))).'/default/files/privates/composer';
 
 return array(
+    'Firebase\\Error' => $vendorDir . '/ktamas77/firebase-php/src/firebaseStub.php',
+    'Firebase\\FirebaseInterface' => $vendorDir . '/ktamas77/firebase-php/src/firebaseInterface.php',
+    'Firebase\\FirebaseLib' => $vendorDir . '/ktamas77/firebase-php/src/firebaseLib.php',
+    'Firebase\\FirebaseStub' => $vendorDir . '/ktamas77/firebase-php/src/firebaseStub.php',
     'Google\\Auth\\ApplicationDefaultCredentials' => $vendorDir . '/google/auth/src/ApplicationDefaultCredentials.php',
     'Google\\Auth\\CacheTrait' => $vendorDir . '/google/auth/src/CacheTrait.php',
     'Google\\Auth\\Cache\\InvalidArgumentException' => $vendorDir . '/google/auth/src/Cache/InvalidArgumentException.php',
